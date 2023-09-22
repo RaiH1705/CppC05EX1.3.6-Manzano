@@ -7,10 +7,10 @@ int main (void)
  I = 1;
  while (I <= 199)
  {
- R = I % 4;
- if (R == 0)
- cout << I << endl;
- I++;
+  R = I % 4;
+  if (R == 0)
+  cout << I << endl;
+  I++;
  }
  return 0;
 }
