@@ -8,10 +8,9 @@ int main (void)
  I = 15;
  while (I <= 200)
  {
- Q = pow(I,2);
- cout << Q << endl;
- I = I + 1;
+  Q = pow(I,2);
+  cout << Q << endl;
+  I = I + 1;
  }
-
  return 0;
 }
