@@ -9,11 +9,11 @@ int main(void){
  PROXIMO = 1;
  while (I <= 15)
  {
- cout << ATUAL << endl;
- ATUAL = ANTERIOR + PROXIMO;
- PROXIMO = ANTERIOR;
- ANTERIOR = ATUAL;
- I++;
+  cout << ATUAL << endl;
+  ATUAL = ANTERIOR + PROXIMO;
+  PROXIMO = ANTERIOR;
+  ANTERIOR = ATUAL;
+  I++;
  }
  return 0;
 }
