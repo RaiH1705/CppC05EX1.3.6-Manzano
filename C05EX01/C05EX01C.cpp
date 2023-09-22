@@ -8,10 +8,9 @@ int main (void)
  I = 1;
  while (I <= 100)
  {
- S = I + S;
- I++;
+  S = I + S;
+  I++;
  }
  cout << "A somatoria é: " << S << endl;
-
  return 0;
 }
