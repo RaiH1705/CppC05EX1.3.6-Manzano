@@ -10,9 +10,9 @@ int main (void)
  T = 1;
  while (T <= 10)
  {
- R = T * N;
- cout << T << "x" << N << "=" << R << endl;
- T = T + 1;
+  R = T * N;
+  cout << T << "x" << N << "=" << R << endl;
+  T = T + 1;
  }
  return 0;
 }
