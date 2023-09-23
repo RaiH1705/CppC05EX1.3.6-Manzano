@@ -9,7 +9,7 @@ int main (void)
  {
   R = I - 2 * ( I / 2);
   if (R != 0)
-  cout << I << endl;
+   cout << I << endl;
   I++;
  }
  return 0;
