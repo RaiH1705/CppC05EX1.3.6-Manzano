@@ -17,7 +17,7 @@ int main(void){
       N++;
     }
     I++;
-    }
+  }
   M = S / N;
   cout << "A média das somas é " << M << endl;
   return 0;
